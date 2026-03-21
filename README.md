@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Graduated from the University of Southampton with a high 2:1 in MEng Computer Science.
+Graduated from the University of Southampton with a First in BSc Computer Science.
 
 Top Languages:<br>
 ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)<br>
