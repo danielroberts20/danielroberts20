@@ -1,13 +1,11 @@
 ### Hi there 👋
 
-Graduated from the University of Southampton with a First in BSc Computer Science.
+CS graduate from the University of Southampton (First Class). My dissertation applied the AutoPlait algorithm to time series segmentation for human activity recognition — also a First.
 
-Top Languages:<br>
-![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)<br>
-![SQL](https://img.shields.io/badge/-SQL-000?style=flat&logo=MySQL)<br>
+I'm currently building two interconnected AI/ML projects during a multi-year trip across ~9 countries:
 
-Interested in data science/analysis and machine learning engineering and pipelines.  
+**[TravelNet](https://travelnet.dev)** — A personal telemetry platform collecting live GPS, health, and financial data via Raspberry Pi. Includes an ML pipeline: DBSCAN location clustering, Hidden Markov Model trip segmentation, anomaly detection, and time series forecasting. Full stack: Python, FastAPI, SQLite, Docker — deployed on the Pi itself with an nginx reverse proxy.
 
-Completed my final year undergraduate dissertation on time series segmentation for human activity recognition, using the AutoPlait algorithm, and received a First.
+**Trevor** — A RAG-based conversational AI interface over TravelNet's data and 3 years of personal journal entries. LLM provider abstraction (OpenAI / Anthropic / local Ollama on GPU), tool-calling loop for hybrid SQL + semantic retrieval, Chroma vector store, and a citation pipeline. The stack runs across a Raspberry Pi and a remote GPU node over Tailscale.
 
-Currently working on TravelNet; a 3-year personal data science project collecting live location, health and financial data and providing ML-powered insights.
+The full arc: collect real data → analyse it with ML → make it queryable with LLMs → ship it.
